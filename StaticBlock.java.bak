@@ -1,0 +1,15 @@
+public class StaticBlock{
+static{
+System.out.println("sb3");
+}
+public static void main(String[] r)
+{
+System.out.println("main metho");
+static{
+System.out.println("sb3");
+}
+static{
+System.out.println("sb3");
+}
+
+}

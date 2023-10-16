@@ -1,0 +1,20 @@
+ //interfaces
+ //rules of interfaces
+//abstract  interface I{
+//}
+// 1.we can abstarct keyword on top of interface but compiler will delete
+//2.we can write extencds keyword on top of iterface but noy for interacting with classes only interact interfaces
+// 3.by default variable of interface are public static final
+/*
+
+*/
+interface J{
+}
+abstarct interface I extends J{
+
+int a=111;
+public int b=222;
+ private int c=333;
+ protected int d=444;
+ }
+ 

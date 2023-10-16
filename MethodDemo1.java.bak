@@ -1,0 +1,34 @@
+
+
+
+class Demo{
+	  void m3() {
+        System.out.println("class demo one m1");
+    }
+	
+}
+class MethodDemo1 {
+    void m1() {
+        System.out.println("method demo one m1");
+    }
+
+    void m2() {
+        System.out.println("method demo one m2");
+    }
+
+    public static void main(String[] a) {
+        System.out.println("method demo one");
+        
+        MethodDemo1 md = new MethodDemo1();
+        md.m1();
+md.m2();		// Call m1 on the created object
+
+        // You can also call m2 if needed
+        // md.m2();
+		
+		
+		
+	Demo d=new Demo();
+	d.m3();
+    }
+}
